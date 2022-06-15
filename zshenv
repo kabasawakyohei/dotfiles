@@ -1,0 +1,1 @@
+/Users/kabasawakyohei/.zprezto/runcoms/zshenv
