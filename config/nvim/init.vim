@@ -1,3 +1,4 @@
+"========== setting =============="
 set shell=/bin/zsh
 set shiftwidth=4
 set tabstop=4
@@ -8,6 +9,10 @@ set hlsearch
 set clipboard=unnamed
 set autoread 
 set number
+set ignorecase
+set laststatus=2
+set showmatch
+set matchtime=1
 syntax on
 
 " 連続ペースト
