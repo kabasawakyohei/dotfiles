@@ -18,6 +18,12 @@ syntax on
 " 連続ペースト
 xnoremap p "_dP
 
+" INSERTモードでカーソル上下左右移動できるようにする
+imap <C-p> <Up>
+imap <C-n> <Down>
+imap <C-b> <Left>
+imap <C-f> <Right>
+
 call plug#begin()
 
 " vim-plug
@@ -28,6 +34,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'srishanbhattarai/neovim-spotify', { 'do': 'bash install.sh' }
 Plug 'airblade/vim-gitgutter'
 Plug 'cohama/lexima.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " ステータスライン
 Plug 'nvim-lualine/lualine.nvim'
