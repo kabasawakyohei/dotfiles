@@ -17,6 +17,8 @@ syntax on
 
 " 連続ペースト
 xnoremap p "_dP
+" ノーマルモードに戻る
+inoremap <silent> jj <ESC>
 
 " INSERTモードでカーソル上下左右移動できるようにする
 imap <C-p> <Up>
