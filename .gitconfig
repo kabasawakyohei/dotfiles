@@ -5,3 +5,4 @@
 [alias]
 	st = status
 	br = branch
+	co = commit

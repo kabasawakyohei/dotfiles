@@ -18,7 +18,6 @@ plugins=(
   git
   z
   web-search
-  fzf
   zsh-autosuggestions
   macos
 )
@@ -32,5 +31,6 @@ alias vim="nvim"
 alias view="nvim -R"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias tm='tmux'
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
